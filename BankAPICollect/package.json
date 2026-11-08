@@ -7,17 +7,11 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@actual-app/api": "^26.10.0",
+    "@actual-app/api": "^26.11.0",
     "@azure/functions": "^4.0.0",
     "axios": "^1.7.8",
     "dotenv": "^16.4.7",
     "node-cron": "3.0.3"
-  },
-  "engines": {
-    "node": ">=22.14"
-  },
-  "allowScripts": {
-    "better-sqlite3": false
   },
   "main": "src/{index.js,functions/*.js}"
 }
