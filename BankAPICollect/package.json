@@ -13,5 +13,11 @@
     "dotenv": "^16.4.7",
     "node-cron": "3.0.3"
   },
+  "engines": {
+    "node": ">=22.14"
+  },
+  "allowScripts": {
+    "better-sqlite3": false
+  },
   "main": "src/{index.js,functions/*.js}"
 }
